@@ -1,0 +1,42 @@
+.todo-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #8FA8C1;
+    height: 35px;
+}
+
+i{
+    cursor: pointer;
+    width: 7%;
+    height: fit-content;
+}
+
+i:hover{
+    cursor: pointer;
+    width: 7%;
+    height: fit-content;
+    zoom: 1.02;
+}
+p{
+    text-align: left;
+    width: 66%;
+    margin-left: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+
+}
+
+p:hover{
+    text-align: left;
+    width: 66%;
+    margin-left: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+    scale: 1.01;
+}
+
+
+

@@ -1,0 +1,11 @@
+.edit-todo-container {
+  position: static;
+  top: 450px;
+min-width: 400px;
+}
+.edit-todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
