@@ -11,6 +11,7 @@ const App = () => {
   const [editvalId, seteditvalId] = useState("");
   const [todoList, setTodoList] = useState([]);
   const [textCross, settextCross] = useState(false);
+  
   const checkingForEnterKey = (e) => {
     if (e.keyCode === 13) {
       addTodo();
